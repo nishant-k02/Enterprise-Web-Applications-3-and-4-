@@ -56,6 +56,27 @@ public class Utilities extends HttpServlet{
 						+ "<li><a><span class='glyphicon'>Hello, "+ username + "</span></a></li>"
 						+ "<li><a href='Account'><span class='glyphicon'>Account</span></a></li>"
 						+ "<li><a href='Logout'><span class='glyphicon'>Logout</span></a></li>";
+
+				
+				// Search and Recommend Section
+				result += "<div style='flex: 4; display: flex; gap: 10px; margin-top: -7px;  position: absolute;'>";
+
+				// Search Reviews Form
+				result += "<form method='POST' action='SearchReviewsServlet' style='flex: 1; margin-top: -10px; display: flex; gap: 5px; align-items: center;'>"
+				        + "<input type='text' name='searchQuery' placeholder='Search Reviews' required "
+				        + "style='flex: 1; padding: 5px; border-radius: 4px; border: 1px solid #ccc;'>"
+				        + "<button type='submit' style='padding: 5px 10px; background: #007bff; color: white; border: none; border-radius: 4px;'>Search</button>"
+				        + "</form>";
+
+				// Recommend Product Form
+				result += "<form method='POST' action='RecommendProductServlet' style='flex: 1; margin-top: -10px; display: flex; gap: 5px; align-items: center;'>"
+				        + "<input type='text' name='productQuery' placeholder='Recommend Product' required "
+				        + "style='flex: 1; padding: 5px; border-radius: 4px; border: 1px solid #ccc;'>"
+				        + "<button type='submit' style='padding: 5px 10px; background: #007bff; color: white; border: none; border-radius: 4px;'>Recommend</button>"
+				        + "</form>";
+
+				result += "</div>"; // End Search and Recommend Section
+
 			} else {
 				result += "<li><a href='Login'><span class='glyphicon'>Login</span></a></li>";
 			}

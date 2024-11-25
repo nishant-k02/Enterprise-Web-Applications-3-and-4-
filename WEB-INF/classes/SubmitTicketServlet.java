@@ -16,7 +16,7 @@ public class SubmitTicketServlet extends HttpServlet {
     private static int ticketCounter = 0;
     String TOMCAT_HOME = System.getProperty("catalina.home");
     private final String TICKET_FILE_PATH = TOMCAT_HOME + "\\webapps\\Tutorial_1\\TicketDetails.txt";
-    private final String OPENAI_API_KEY = "your_api_key"; // Replace with your actual API key
+    private final String OPENAI_API_KEY = "your_openAI_key"; // Replace with your actual API key
     private final String OPENAI_MODEL = "gpt-4o-mini";
 
     @Override
