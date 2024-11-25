@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+
+<ConsoleCatalog>
+    <console id="Xbox One">
+        <name>Xiaomi Doorbell 2</name>
+        <price>200.00</price>
+        <image>xiaomi.png</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+        <accessories>
+            <accessory>xboxone_wc</accessory>
+            <accessory>xboxone_sh</accessory>
+			<accessory>xboxone_kg</accessory>
+            <accessory>xboxone_vb</accessory>
+			<accessory>xboxone_rs</accessory>
+            <accessory>xboxone_mp</accessory>
+			<accessory>xboxone_mc</accessory>
+			
+			
+        </accessories>
+    </console>
+    <console id="xbox360">
+        <name>Xiaomi Doorbell 1</name>
+        <price>200.00</price>
+        <image>xiaomi2.jpeg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+        <accessories>
+            <accessory>xbox360_wc</accessory>
+            <accessory>xbox360_sh</accessory>
+			<accessory>xbox360_vb</accessory>
+			<accessory>xbox360_rs</accessory>
+			<accessory>xbox360_mp</accessory>
+			<accessory>xbox360_kg</accessory>
+        </accessories>
+    </console>
+
+    <console id="PS4">
+        <name>Philips Doorbell 1</name>
+        <price>100.00</price>
+        <image>philips1.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+        <accessories>
+            <accessory>ps4_wc</accessory>
+			
+        </accessories>
+    </console>
+    <console id="PS3">
+        <name>Philips Doorbell 2</name>
+        <price>119.99</price>
+        <image>philips2.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+        <accessories>
+            <accessory>ps3_wc</accessory>
+			
+        </accessories>
+    </console>
+    <console id="WII">
+        <name>Honeywell Doorbells 1</name>
+        <price>160.00</price>
+        <image>honeywell1.jpg</image>
+        <manufacturer>Nintendo</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+        <accessories>
+            <accessory>nintendo_wc</accessory>
+            <accessory>nintendo_sh</accessory>
+        </accessories>
+    </console>
+    <console id="id">
+        <name>Honeywell Doorbells 2</name>
+        <price>210.00</price>
+        <image>honeywell2.jpg</image>
+        <manufacturer>Nintendo</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+        <accessories>
+            <accessory>nintendo_wc</accessory>
+            <accessory>nintendo_sh</accessory>
+        </accessories>
+    </console>
+</ConsoleCatalog>
+
+<GamesCatalog>
+<game id="g1">
+        <name>Honeywell Doorlock 1</name>
+        <price>99.99</price>
+        <image>honeylock1.jpg</image>
+        <manufacturer>ElectronicArts</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</game>
+<game id="g2">
+        <name>Honeywell Lock 2</name>
+        <price>119.99</price>
+        <image>honeylock2.jpg</image>
+        <manufacturer>ElectronicArts</manufacturer>
+        <condition>Refurbished</condition>
+        <discount>15.0</discount>
+</game>
+<game id="g3">
+        <name>Yale Lock 1</name>
+        <price>150.00</price>
+        <image>yalelock1.jpg</image>
+        <manufacturer>Activision</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</game>
+<game id="g4">
+        <name>Yale Lock 2</name>
+        <price>100.00</price>
+        <image>yalelock2.jpg</image>
+        <manufacturer>Activision</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</game>
+
+<game id="g5">
+        <name>Eufy Lock 1</name>
+        <price>200.00</price>
+        <image>eufylock1.png</image>
+        <manufacturer>TakeTwoInteractive</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</game>
+<game id="g6">
+        <name>Eufy Lock 2</name>
+        <price>249.99</price>
+        <image>eufylock2.jpg</image>
+        <manufacturer>TakeTwoInteractive</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+</game>
+</GamesCatalog>
+
+<TabletCatalog>
+
+    <tablet id="ipad3">
+        <name>Apple Speaker 1</name>
+        <price>199.99</price>
+        <image>applespeaker2.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>Used</condition>
+        <discount>20.0</discount>
+    </tablet>
+    <tablet id="ipad">
+        <name>Apple Speaker 2</name>
+        <price>189.99</price>
+        <image>applespeaker1.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+    </tablet>
+    <tablet id="Surface">
+        <name>JBL Speaker 2</name>
+        <price>99.99</price>
+        <image>jblspeaker1.jpeg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </tablet>
+    <tablet id="Surface4">
+        <name>JBL Speaker 1</name>
+        <price>89.99</price>
+        <image>jblspeaker2.png</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </tablet>
+    <tablet id="Samsung2">
+        <name>Bose Speaker 1</name>
+        <price>150.99</price>
+        <image>bosespeaker1.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </tablet>
+    <tablet id="Bose2">
+        <name>Bose Speaker 2</name>
+        <price>100.99</price>
+        <image>bosespeaker2.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </tablet>
+
+</TabletCatalog>
+
+<AccessoryCatalog>
+
+    <!-- <accessory id="xboxone_wc">
+        <name>Controller</name>
+        <price>89.99</price>
+        <image>XBOX controller.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory>
+
+    <accessory id="xboxone_sh">
+        <name>Turtle Beach Headset</name>
+        <price>89.99</price>
+        <image>Turtle Beach Headset.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory>
+	 
+	 <accessory id="xboxone_vb">
+        <name>joystick</name>
+        <price>89.99</price>
+        <image>joystick.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory>
+
+    <accessory id="xboxone_kg">
+        <name>Keypad</name>
+        <price>89.99</price>
+        <image>keypad.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory>
+	 
+	 <accessory id="xboxone_rs">
+        <name>Starterkit</name>
+        <price>89.99</price>
+        <image>starterkit.jpeg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory>
+
+    <accessory id="xboxone_mp">
+        <name>Wireless adpter</name>
+        <price>89.99</price>
+        <image>wirelessadapter.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory>
+	 
+	 <accessory id="xboxone_mc">
+        <name>Wireless </name>
+        <price>89.99</price>
+        <image>wirelessadapter.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory> -->
+	 
+
+    <accessory id="xbox360_wc">
+        <name>Philips Light 2</name>
+        <price>60.00</price>
+        <image>philipslight2.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory>
+
+    <!-- <accessory id="xbox360_sh">
+        <name>XBOX Wireless Adapter</name>
+        <price>89.99</price>
+        <image>xbox360_wa.png</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory>
+	 
+	 <accessory id="xbox360_vb">
+        <name>Remote</name>
+        <price>89.99</price>
+        <image>remote.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory> -->
+	 	 <accessory id="xbox360_rs">
+        <name>Philips Light 1</name>
+        <price>50.00</price>
+        <image>philipslight1.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory>
+	 
+	 	 <!-- <accessory id="xbox360_mp">
+        <name>Steering</name>
+        <price>89.99</price>
+        <image>steering.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory>
+	 
+	 	 <accessory id="xbox360_kg">
+        <name>Charger</name>
+        <price>89.99</price>
+        <image>charger.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory> -->
+
+    <accessory id="ps4_wc">
+        <name>Google Light 1</name>
+        <price>89.99</price>
+        <image>googlelight1.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory>
+
+    <accessory id="ps3_wc">
+        <name>Google Light 2</name>
+        <price>89.99</price>
+        <image>googlelight2.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory>
+
+    <accessory id="nintendo_wc">
+        <name>Logitech Light 1</name>
+        <price>70.00</price>
+        <image>logitechlight1.jpg</image>
+        <manufacturer>Nintendo</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory>
+
+    <!-- <accessory id="nintendo_sh">
+        <name>Nintendo Racing Controller</name>
+        <price>89.99</price>
+        <image>Wii2.jpg</image>
+        <manufacturer>Nintendo</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+     </accessory> -->
+	 
+  
+
+</AccessoryCatalog>
+
+
+
+
+
+</ProductCatalog>

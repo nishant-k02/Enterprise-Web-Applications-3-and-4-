@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "WEB-INF/classes"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "libs/gson-2.8.8.jar"
+    ]
+}
